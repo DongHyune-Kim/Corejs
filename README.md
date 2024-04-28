@@ -1,19 +1,19 @@
 <h1 align="center">Hi 👋, I'm DongHyune KIM</h1>
-<h3 align="center">📝 Here is the space where I upload my submitted assignments.</h3>
+<h3 align="center">📝 Here is the space where I upload assignments to be submitted.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=donghyune-kim&label=Profile%20views&color=0e75b6&style=flat" alt="donghyune-kim" /> </p>
 
-- 📄 I am currently a student pursuing graduate school. **[Graduate school student]**
+- 📄 I am currently a student pursuing graduate school. 
 
-- 📄 I am in the first year of my course. **[student cours in master]**
+- 📄 I am currently in my first semester of first year. 
 
-- 📄 I am in the Department of Electronic and Electrical Engineering. **[student department]**
+- 📄 I am in the Department of Electronic and Electrical Engineering.
 
-- 📄 My student number is 2024120366. **[student number]**
+- 📄 My student number is 2024120366.
 
-- 📄 I’m currently learning IoT. **[learning curriculum]**
+- 📄 I'm currently learning IoT.
 
-- 💬 Ask me about. **[kimdonghyune99@gmail.com]**
+- 💬 Ask me about.   **[kimdonghyune99@gmail.com]**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
