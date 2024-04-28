@@ -1,4 +1,10 @@
-// Example 2-13 스코프 체인 
+---
+layout: single
+title: "5주차 CoreJavaScript 두 번째, 세 번째 강의 실습 예제입니다."
+---
+
+# Example 2-13 스코프 체인
+```js
 var a = 1;
 var outer = function() {
   var inner = function() {
@@ -10,8 +16,9 @@ var outer = function() {
 };
 outer();
 console.log(a);
-
-// Example 2-14
+```
+# Example 2-14
+```js
 var a = 1;
 var outer = function() {
   var b = 2;
@@ -21,8 +28,9 @@ var outer = function() {
   inner();
 };
 outer();
-
-// Example 2-15
+```
+# Example 2-15
+```js
 var a = 1;
 var outer = function() {
   var b = 2;
@@ -33,8 +41,9 @@ var outer = function() {
   inner();
 };
 outer();
-
-// Example 2-16
+```
+# Example 2-16
+```js
 var a = 1;
 var outer = function() {
   var b = 2;
@@ -45,3 +54,4 @@ var outer = function() {
   inner();
 };
 outer();
+```
