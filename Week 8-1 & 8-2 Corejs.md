@@ -1,12 +1,20 @@
-// Example3-14 call 메서드(1) 
+---
+layout: single
+title: "8주차 CoreJavaScript 첫 번째와 두 번째 강의 실습 예제입니다."
+---
+
+# Example3-14 call 메서드(1)
+```js 
 var func = function(a, b, c) {
   console.log(this, a, b, c);
 };
 
 func(1, 2, 3); // Window{ ... } 1 2 3
 func.call({ x: 1 }, 4, 5, 6); // { x: 1 } 4 5 6
+```
 
-// Example 3-15 call 메서드(2)
+# Example 3-15 call 메서드(2)
+```js
 var obj = {
   a: 1,
   method: function(x, y) {
@@ -16,8 +24,10 @@ var obj = {
 
 obj.method(2, 3); // 1 2 3
 obj.method.call({ a: 4 }, 5, 6); // 4 5 6
+```
 
-// Example 3-16 apply 메서드 
+# Example 3-16 apply 메서드 
+```js
 var func = function(a, b, c) {
   console.log(this, a, b, c);
 };
@@ -30,8 +40,9 @@ var obj = {
   },
 };
 obj.method.apply({ a: 4 }, [5, 6]); // 4 5 6
-
-// Example 3-17 call/apply 메서드의 활용 1-1) 유사배열객체에 배열 메서드를 적용
+```
+# Example 3-17 call/apply 메서드의 활용 1-1) 유사배열객체에 배열 메서드를 적용
+```js
 var obj = {
   0: 'a',
   1: 'b',
@@ -43,8 +54,9 @@ console.log(obj); // { 0: 'a', 1: 'b', 2: 'c', 3: 'd', length: 4 }
 
 var arr = Array.prototype.slice.call(obj);
 console.log(arr); // [ 'a', 'b', 'c', 'd' ]
-
-// Example 3-18 call/apply 메서드의 활용 1-2) arguments, NodeList에 배열 메서드를 적용
+```
+# Example 3-18 call/apply 메서드의 활용 1-2) arguments, NodeList에 배열 메서드를 적용
+```js
 function a() {
   var argv = Array.prototype.slice.call(arguments);
   argv.forEach(function(arg) {
@@ -59,8 +71,10 @@ var nodeArr = Array.prototype.slice.call(nodeList);
 nodeArr.forEach(function(node) {
   console.log(node);
 });
+```
 
-// Example 3-19 call/apply 메서드의 활용 1-3) 문자열에 배열 메서드 적용 예시
+# Example 3-19 call/apply 메서드의 활용 1-3) 문자열에 배열 메서드 적용 예시
+```js
 var str = 'abc def';
 
 Array.prototype.push.call(str, ', pushed string');
@@ -88,8 +102,10 @@ var newStr = Array.prototype.reduce.apply(str, [
   '',
 ]);
 console.log(newStr); // "a0b1c2 3d4e5f6"
+```
 
-// Example 3-20 call/apply 메서드의 활용 1-4)ES6의 Array, from 메서드
+# Example 3-20 call/apply 메서드의 활용 1-4)ES6의 Array, from 메서드
+```js
 var obj = {
   0: 'a',
   1: 'b',
@@ -98,3 +114,4 @@ var obj = {
 };
 var arr = Array.from(obj);
 console.log(arr); // ['a', 'b', 'c']
+```
