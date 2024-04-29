@@ -1,4 +1,10 @@
-// Example 3-9 내부함수에서의 this 
+---
+layout: single
+title: "7주차 CoreJavaScript 강의 실습 예제입니다."
+---
+
+# Example 3-9 내부함수에서의 this 
+```js
 var obj1 = {
     outer: function() {
       console.log(this); // (1)
@@ -14,8 +20,9 @@ var obj1 = {
     },
   };
   obj1.outer();
-  
-  // Example 3-10 내부함수에서의 this를 우회하는 방법 
+  ```
+  # Example 3-10 내부함수에서의 this를 우회하는 방법 
+  ```js
   var obj = {
     outer: function() {
       console.log(this); // (1) { outer: f }
@@ -32,8 +39,9 @@ var obj1 = {
     },
   };
   obj.outer();
-  
-  // Example 3-11 this를 바인딩하지 않는 함수(화살표 함수) 
+  ```
+  # Example 3-11 this를 바인딩하지 않는 함수(화살표 함수) 
+  ```js
   var obj = {
     outer: function() {
       console.log(this); // (1) { outer: f }
@@ -44,8 +52,9 @@ var obj1 = {
     },
   };
   obj.outer();
-  
-  // Example 3-12 콜백 함수 내부에서의 this 
+  ```
+  # Example 3-12 콜백 함수 내부에서의 this 
+  ```js
   setTimeout(function() {
     console.log(this);
   }, 300); // (1)
@@ -60,8 +69,9 @@ var obj1 = {
     // (3)
     console.log(this, e);
   });
-  
-  // Example 3-13 생성자 함수 
+  ```
+  # Example 3-13 생성자 함수 
+  ```js
   var Cat = function(name, age) {
     this.bark = '야옹';
     this.name = name;
@@ -75,4 +85,4 @@ var obj1 = {
   Cat { bark: '야옹', name: '초코', age: 7 }
   Cat { bark: '야옹', name: '나비', age: 5 }
   */
-  
+  ```
