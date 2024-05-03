@@ -2,9 +2,9 @@
 # 3주차 두 번째 강의 CoreJavaScript 실습 예제 요점 설명입니다. 
 ---
 
-```
+---
 # 예제 1-21 설명
-```
+---
 
 - arr1은 [undefined, 1]로 초기화되었고, arr2는 빈 배열이다.
 - 그 후에 arr2[1] = 1을 사용하여 arr2의 두 번째 요소에 값을 할당한다.
@@ -41,9 +41,10 @@ undefined011
 11
 ```
 
-```
+---
 # 예제 1-22 설명
-
+---
+```
 typeof n // 변수 n의 타입을 출력한다. null의 타입이 object로 표시되는 것은 JavaScript의 버그로 판단된다.
 n == undefined // null과 undefined를 비교한다. 두 값은 동등 연산자 ==를 사용하여 비교할 때 true로 평가된다. 이는 JavaScript의 동등 연산 규칙에 따라 null과 undefined는 서로 동일한 것으로 간주된다.
 n == null // 마찬가지로 null과 null을 비교한다. 결과는 true
