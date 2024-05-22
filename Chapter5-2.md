@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-2 실습 예제입니다."
+---
+
+```js
 var outer = function() {
     var a = 1;
     var inner = function() {
@@ -6,4 +12,5 @@ var outer = function() {
     return inner();
   };
   var outer2 = outer();
-  console.log(outer2); 
+  console.log(outer2);
+```
