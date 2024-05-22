@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-17 실습 예제입니다."
+---
+
+```js
 var addCoffee = function(name) {
     return new Promise(function(resolve) {
       setTimeout(function() {
@@ -20,3 +26,4 @@ var addCoffee = function(name) {
     console.log(coffeeList);
   };
   coffeeMaker();
+```
