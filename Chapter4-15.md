@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-15 실습 예제입니다."
+---
+
+```js
 var addCoffee = function(name) {
     return function(prevName) {
       return new Promise(function(resolve) {
@@ -13,3 +19,4 @@ var addCoffee = function(name) {
     .then(addCoffee('아메리카노'))
     .then(addCoffee('카페모카'))
     .then(addCoffee('카페라떼'));
+```
