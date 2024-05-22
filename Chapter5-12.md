@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-12 실습 예제입니다."
+---
+
+```js
 var createCar = function() {
     var fuel = Math.ceil(Math.random() * 10 + 10); // 연료(L)
     var power = Math.ceil(Math.random() * 3 + 2); // 연비(km / L)
@@ -22,3 +28,4 @@ var createCar = function() {
     return publicMembers;
   };
   var car = createCar();
+```
