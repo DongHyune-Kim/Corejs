@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-10 실습 예제입니다."
+---
+
+```js
 var obj1 = {
     name: 'obj1',
     func: function() {
@@ -14,3 +20,4 @@ var obj1 = {
   var obj3 = { name: 'obj3' };
   var callback3 = obj1.func.call(obj3);
   setTimeout(callback3, 2000);
+```
