@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-16 실습 예제입니다."
+---
+
+```js
 var addCoffee = function(prevName, name) {
     setTimeout(function() {
       coffeeMaker.next(prevName ? prevName + ', ' + name : name);
@@ -15,3 +21,4 @@ var addCoffee = function(prevName, name) {
   };
   var coffeeMaker = coffeeGenerator();
   coffeeMaker.next();
+```
