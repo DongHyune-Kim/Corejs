@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-10 실습 예제입니다."
+---
+
+```js
 var car = {
     fuel: Math.ceil(Math.random() * 10 + 10), // 연료(L)
     power: Math.ceil(Math.random() * 3 + 2), // 연비(km/L)
@@ -14,3 +20,4 @@ var car = {
       console.log(km + 'km 이동 (총 ' + this.moved + 'km)');
     },
   };
+```
