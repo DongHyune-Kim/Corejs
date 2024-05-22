@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-13 실습 예제입니다."
+---
+
+```js
 var coffeeList = '';
 
 var addEspresso = function(name) {
@@ -21,3 +27,4 @@ var addLatte = function(name) {
 };
 
 setTimeout(addEspresso, 500, '에스프레소');
+```
