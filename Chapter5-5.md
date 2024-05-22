@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-5 실습 예제입니다."
+---
+
+```js
 var outer = (function() {
     var a = 1;
     var inner = function() {
@@ -37,3 +43,4 @@ var outer = (function() {
     button.addEventListener('click', clickHandler);
     document.body.appendChild(button);
   })();
+```
