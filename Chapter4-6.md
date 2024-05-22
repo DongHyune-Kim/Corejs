@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-6 실습 예제입니다."
+---
+
+```js
 setTimeout(function() {
     console.log(this);
   }, 300); 
@@ -13,3 +19,4 @@ setTimeout(function() {
       console.log(this, e); 
     } 
   );
+```
