@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-17 실습 예제입니다."
+---
+
+```js
 var curry3 = function(func) {
     return function(a) {
       return function(b) {
@@ -13,3 +19,4 @@ var curry3 = function(func) {
   var getMinWith10 = curry3(Math.min)(10);
   console.log(getMinWith10(8)); // 8
   console.log(getMinWith10(25)); // 10
+```
