@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-12 실습 예제입니다."
+---
+
+```js
 setTimeout(
     function(name) {
       var coffeeList = name;
@@ -33,3 +39,4 @@ setTimeout(
     500,
     '에스프레소'
   );
+```
