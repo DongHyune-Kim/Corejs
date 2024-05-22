@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-4 실습 예제입니다."
+---
+
+```js
 (function() {
     var a = 0;
     var intervalId = null;
@@ -19,3 +25,4 @@
     });
     document.body.appendChild(button);
   })();
+```
