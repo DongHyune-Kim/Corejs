@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-15 실습 예제입니다."
+---
+
+```js
 Object.defineProperty(window, '_', {
     value: 'EMPTY_SPACE',
     writable: false,
@@ -40,3 +46,4 @@ Object.defineProperty(window, '_', {
     }, '왈왈, '),
   };
   dog.greet(' 배고파요!'); // 왈왈, 강아지 배고파요!
+```
