@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-18 실습 예제입니다."
+---
+
+```js
 var curry5 = function(func) {
     return function(a) {
       return function(b) {
@@ -13,3 +19,4 @@ var curry5 = function(func) {
   };
   var getMax = curry5(Math.max);
   console.log(getMax(1)(2)(3)(4)(5));
+```
