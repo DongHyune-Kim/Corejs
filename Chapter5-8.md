@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-8 실습 예제입니다."
+---
+
+```js
 var fruits = ['apple', 'banana', 'peach'];
 var $ul = document.createElement('ul');
 
@@ -11,3 +17,4 @@ fruits.forEach(function(fruit) {
   $ul.appendChild($li);
 });
 document.body.appendChild($ul);
+```
