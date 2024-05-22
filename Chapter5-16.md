@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-16 실습 예제입니다."
+---
+
+```js
 var debounce = function(eventName, func, wait) {
     var timeoutId = null;
     return function(event) {
@@ -19,3 +25,4 @@ var debounce = function(eventName, func, wait) {
     'mousewheel',
     debounce('wheel', wheelHandler, 700)
   );
+```
