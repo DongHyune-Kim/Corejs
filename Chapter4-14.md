@@ -1,3 +1,9 @@
+---
+layout: single
+title: "4장 4-14 실습 예제입니다."
+---
+
+```js
 new Promise(function(resolve) {
     setTimeout(function() {
       var name = '에스프레소';
@@ -32,3 +38,4 @@ new Promise(function(resolve) {
         }, 500);
       });
     });
+```
