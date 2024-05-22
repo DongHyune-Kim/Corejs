@@ -1,3 +1,9 @@
+---
+layout: single
+title: "5장 5-14 실습 예제입니다."
+---
+
+```js
 var partial = function() {
     var originalPartialArgs = arguments;
     var func = originalPartialArgs[0];
@@ -28,3 +34,4 @@ var partial = function() {
     }, '왈왈, '),
   };
   dog.greet('입니다!'); // 왈왈, 강아지입니다.
+```
