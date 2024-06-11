@@ -38,19 +38,12 @@ console.log(sq.getArea()); // 25
 
 - extendClass1 함수
   - SuperClass : 수퍼클래스로 사용될 함수나 클래스
-  
   - SubClass : 서브클래스로 사용될 함수나 클래스
-
   - subMethods: 서브클래스에 추가할 메서드들을 담은 객체
-
   - SubClass.prototype = new SuperClass();: 서브클래스의 프로토타입을 수퍼클래스의 인스턴스로 설정하여 상속을 구현
-
   - for...in 루프를 사용하여 서브클래스의 프로토타입에서 직접 상속받은 속성들을 제거
-
   - subMethods 객체에서 각 메서드를 가져와서 서브클래스의 프로토타입에 추가
- 
   - Object.freeze(SubClass.prototype);: 서브클래스의 프로토타입을 불변하게 만든다.
-
   - SubClass를 반환하여 체이닝이 가능
 
 - ectangle 생성자 함수 및 메서드
