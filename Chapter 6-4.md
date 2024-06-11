@@ -1,3 +1,9 @@
+---
+layout: single
+title: "6장 6-4 실습 예제입니다."
+---
+#  Example 6-4
+```js
 var NewConstructor = function() {
     console.log('this is new constuctor!');
   };
@@ -24,3 +30,4 @@ var NewConstructor = function() {
     d.constructor = NewConstructor;
     console.log(d.constructor.name, '&', d instanceof NewConstructor);
   });
+```
