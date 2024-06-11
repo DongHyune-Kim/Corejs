@@ -1,3 +1,9 @@
+---
+layout: single
+title: "6장 6-9 실습 예제입니다."
+---
+#  Example 6-9
+```js
 Object.prototype.getEntries = function() {
     var res = [];
     for (var prop in this) {
@@ -18,3 +24,4 @@ Object.prototype.getEntries = function() {
   data.forEach(function(datum) {
     console.log(datum[1].getEntries());
   });
+```
