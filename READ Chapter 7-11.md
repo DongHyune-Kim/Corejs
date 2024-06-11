@@ -22,8 +22,8 @@ var extendClass1 = function(SuperClass, SubClass, subMethods) {
 ```
 
 ```
-- 프로토타입 상속을 사용하여 Rectangle과 Square을 정의하고, Square이 Rectangle을 상속받도록 구현, 정사각형 객체를 생성하여 면적을 계산
-- extendClass1 함수는 수퍼클래스(SuperClass)와 서브클래스(SubClass) 간의 상속 관계를 설정하고, 서브클래스(SubClass)에 추가 메서드(subMethods)를 정의
+프로토타입 상속을 사용하여 Rectangle과 Square을 정의하고, Square이 Rectangle을 상속받도록 구현, 정사각형 객체를 생성하여 면적을 계산
+extendClass1 함수는 수퍼클래스(SuperClass)와 서브클래스(SubClass) 간의 상속 관계를 설정하고, 서브클래스(SubClass)에 추가 메서드(subMethods)를 정의
 
 - SubClass의 프로토타입을 SuperClass의 인스턴스로 설정하여 SubClass가 SuperClass의 프로퍼티와 메서드를 상속받도록 한다.
 
