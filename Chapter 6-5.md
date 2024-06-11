@@ -1,3 +1,9 @@
+---
+layout: single
+title: "6장 6-5 실습 예제입니다."
+---
+#  Example 6-5
+```js
 var Person = function(name) {
     this.name = name;
   };
@@ -11,3 +17,4 @@ var Person = function(name) {
   [p1, p2, p3, p4, p5].forEach(function(p) {
     console.log(p, p instanceof Person);
   });
+```
