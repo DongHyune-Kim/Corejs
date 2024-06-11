@@ -1,3 +1,9 @@
+---
+layout: single
+title: "6장 6-10 실습 예제입니다."
+---
+#  Example 6-10
+```js
 var Grade = function() {
     var args = Array.prototype.slice.call(arguments);
     for (var i = 0; i < args.length; i++) {
@@ -6,3 +12,4 @@ var Grade = function() {
     this.length = args.length;
   };
   var g = new Grade(100, 80);
+```
